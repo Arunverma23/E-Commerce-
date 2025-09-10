@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
+    <script type="module" src="./src/main.js"></script>
     <title>E-Commerce</title>
   </head>
   <body>
@@ -176,11 +177,10 @@
     <!------------------------------------ Start project Section ---------------------------------------->
 
     <section class="section-product">
-      <div class="conatiner">
-        <div class="section-comman-heading">
-    
+      <div class="container">
+        <h2 class="section-comman--heading">
           Lorem, ipsum dolor.
-        </div>
+        </h2>
       </div>
 
       <section class="container">
@@ -199,7 +199,7 @@
             <div class="imageContainer">
               <img class="productImage" src="" alt="">
             </div>
-            <h2 class="ProductName"></h2>
+            <h2 class="productName"></h2>
             <div class="productRating">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -210,6 +210,30 @@
 
             <p class="produtDescription"></p>
             
+            <div class="productPriceElement">
+              <p class="productPrice"></p>
+              <p class="productActualPrice"></p>
+            </div>
+
+            <div class="productStockElement">
+              <p class="productProperty">Lorem, ipsum. 0</p>
+              <p class="productStock"></p>
+            </div>
+
+            <div class="productQuantityElement">
+              <p class="productProperty">Lorem, ipsum.</p>
+              <div class="stockElement">
+                <button class="cartIncrement">+</button>
+                <p>1</p>
+                <button class="cartDecremnt">-</button>
+              </div>
+            </div>
+
+            <button class="add-to-cart-button">
+              <i class="fa-solid fa-cart-shopping"></i> Lorem, ipsum.
+            </button>
+
+
         </article>
       </div>
     </template> 
@@ -333,8 +357,6 @@
     <!------------------------------------ End Footer Section ---------------------------------------->
 
     </main>
-
-
   </body>
 </html>
 
